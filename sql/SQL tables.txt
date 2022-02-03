@@ -1,0 +1,8 @@
+------Create tables in sql using these queries------
+
+create table packages(package_name varchar(20),price_per_child integer ,price_per_adult integer,details varchar(100));
+
+
+create table users(first_name varchar(10),last_name varchar(10),address varchar(30),username varchar(15),mobile double,email varchar(20),password varchar(20));
+
+create table bookings(username varchar(15),adults int(11),children int(11),date date,amount int(11),package varchar(15));
